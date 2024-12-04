@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "aoc",
+    "module": "utils",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-0.1.0.jar",
+          "url": "utils-0.1.0.jar",
+          "size": 8138,
+          "sha512": "c3d96eceb48697bbc7370014ec8ad2561d89f6d6828c5a8df133b1141109b682bbfa2a9fb98dbf7fda77e0882fad9ee574b1b590c34ffcc05bb41e690b41f9ea",
+          "sha256": "dc07aea41ca4972a3d7667221a1ebd4aaa719dff67af16bb62de7196246ef924",
+          "sha1": "7ccae3496c4fde446c2cda30f2783778916e2f0f",
+          "md5": "a800264214776d6bc42c2264ace57c99"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "utils-0.1.0.jar",
+          "url": "utils-0.1.0.jar",
+          "size": 8138,
+          "sha512": "c3d96eceb48697bbc7370014ec8ad2561d89f6d6828c5a8df133b1141109b682bbfa2a9fb98dbf7fda77e0882fad9ee574b1b590c34ffcc05bb41e690b41f9ea",
+          "sha256": "dc07aea41ca4972a3d7667221a1ebd4aaa719dff67af16bb62de7196246ef924",
+          "sha1": "7ccae3496c4fde446c2cda30f2783778916e2f0f",
+          "md5": "a800264214776d6bc42c2264ace57c99"
+        }
+      ]
+    }
+  ]
+}

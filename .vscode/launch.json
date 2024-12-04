@@ -1,0 +1,184 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 1",
+            "projectRoot": "${workspaceFolder}/01",
+            "mainClass": "SolutionKt ${workspaceFolder}/01/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 2",
+            "projectRoot": "${workspaceFolder}/02",
+            "mainClass": "SolutionKt ${workspaceFolder}/02/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 3",
+            "projectRoot": "${workspaceFolder}/03",
+            "mainClass": "SolutionKt ${workspaceFolder}/03/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 4",
+            "projectRoot": "${workspaceFolder}/04",
+            "mainClass": "SolutionKt ${workspaceFolder}/04/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 5",
+            "projectRoot": "${workspaceFolder}/05",
+            "mainClass": "SolutionKt ${workspaceFolder}/05/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 6",
+            "projectRoot": "${workspaceFolder}/06",
+            "mainClass": "SolutionKt ${workspaceFolder}/06/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 7",
+            "projectRoot": "${workspaceFolder}/07",
+            "mainClass": "SolutionKt ${workspaceFolder}/07/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 8",
+            "projectRoot": "${workspaceFolder}/08",
+            "mainClass": "SolutionKt ${workspaceFolder}/08/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 9",
+            "projectRoot": "${workspaceFolder}/09",
+            "mainClass": "SolutionKt ${workspaceFolder}/09/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 10",
+            "projectRoot": "${workspaceFolder}/10",
+            "mainClass": "SolutionKt ${workspaceFolder}/10/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 11",
+            "projectRoot": "${workspaceFolder}/11",
+            "mainClass": "SolutionKt ${workspaceFolder}/11/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 12",
+            "projectRoot": "${workspaceFolder}/12",
+            "mainClass": "SolutionKt ${workspaceFolder}/12/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 13",
+            "projectRoot": "${workspaceFolder}/13",
+            "mainClass": "SolutionKt ${workspaceFolder}/13/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 14",
+            "projectRoot": "${workspaceFolder}/14",
+            "mainClass": "SolutionKt ${workspaceFolder}/14/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 15",
+            "projectRoot": "${workspaceFolder}/15",
+            "mainClass": "SolutionKt ${workspaceFolder}/15/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 16",
+            "projectRoot": "${workspaceFolder}/16",
+            "mainClass": "SolutionKt ${workspaceFolder}/16/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 17",
+            "projectRoot": "${workspaceFolder}/17",
+            "mainClass": "SolutionKt ${workspaceFolder}/17/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 18",
+            "projectRoot": "${workspaceFolder}/18",
+            "mainClass": "SolutionKt ${workspaceFolder}/18/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 19",
+            "projectRoot": "${workspaceFolder}/19",
+            "mainClass": "SolutionKt ${workspaceFolder}/19/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 20",
+            "projectRoot": "${workspaceFolder}/20",
+            "mainClass": "SolutionKt ${workspaceFolder}/20/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 21",
+            "projectRoot": "${workspaceFolder}/21",
+            "mainClass": "SolutionKt ${workspaceFolder}/21/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 22",
+            "projectRoot": "${workspaceFolder}/22",
+            "mainClass": "SolutionKt ${workspaceFolder}/22/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 23",
+            "projectRoot": "${workspaceFolder}/23",
+            "mainClass": "SolutionKt ${workspaceFolder}/23/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 24",
+            "projectRoot": "${workspaceFolder}/24",
+            "mainClass": "SolutionKt ${workspaceFolder}/24/input"
+        },
+        {
+            "type": "kotlin",
+            "request": "launch",
+            "name": "Day 25",
+            "projectRoot": "${workspaceFolder}/25",
+            "mainClass": "SolutionKt ${workspaceFolder}/25/input"
+        }
+    ]
+    
+}
