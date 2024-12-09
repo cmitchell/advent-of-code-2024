@@ -13,6 +13,23 @@ fun euclideanDistance(p1: Pair<Int, Int>, p2: Pair<Int, Int>): Double =
 fun manhattanDistance(p1: Pair<Int, Int>, p2: Pair<Int, Int>): Int =
     abs(p1.first - p2.first) + abs(p1.second - p2.second)
 
+fun checkAreInLine(p1: Pair<Int, Int>, p2: Pair<Int, Int>, p3: Pair<Int, Int>): Boolean {
+    // Using the slope method
+    val slope1 = (p2.second - p1.second) / (p2.first - p1.first)
+    val slope2 = (p3.second - p2.second) / (p3.first - p2.first)
+     
+    return slope1 == slope2
+}
+     
+fun checkEqualsDistance(p1: Pair<Int, Int>, p2: Pair<Int, Int>, p3: Pair<Int, Int>): Boolean {
+    var p1Top3 = manhattanDistance(p1, p3)
+    var p2Top3 = manhattanDistance(p2, p3)
+    if (p1Top3 > p2Top3) {
+        return p1Top3 / p2Top3 == 2
+    }
+    return p2Top3 / p1Top3 == 2
+ }
+
 /**
  * Breath first search
  */
