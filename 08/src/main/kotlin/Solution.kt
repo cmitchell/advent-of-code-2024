@@ -78,6 +78,7 @@ private fun solution2(): Int {
          for (i in (k + 1)..coordsList.size - 1) {
             var p2 = coordsList[i]
 
+            // go in both direction
             antinodes.addAll(createAntinodes(p1, p2))
             antinodes.addAll(createAntinodes(p2, p1))
          }
@@ -91,10 +92,9 @@ private fun createAntinodes(p1: Pair<Int, Int>, p2: Pair<Int, Int>): List<Pair<I
    var antinodes = mutableListOf<Pair<Int, Int>>()
    antinodes.add(p1)
    antinodes.add(p2)
-   var expected = expectDirection(p1, p2)
-   var newANode = expected.second
+   var newANode = expectDirection(p1, p2)
    if (checkInBounds(XBounds, YBounds, newANode)) {
-      antinodes.addAll(createAntinodes(expected.first, newANode))
+      antinodes.addAll(createAntinodes(p2, newANode))
    }
 
    return antinodes
@@ -105,21 +105,21 @@ private fun checkInBounds(xBounds: IntRange, yBounds: IntRange, p: Pair<Int, Int
 }
 
 // Borrowed from Day 04, added the xDiff and yDiff instead of the hard coded value of 1
-private fun expectDirection(p1: Pair<Int, Int>, p2: Pair<Int, Int>): Pair<Pair<Int, Int>, Pair<Int, Int>> {
+private fun expectDirection(p1: Pair<Int, Int>, p2: Pair<Int, Int>): Pair<Int, Int> {
    var xDiff = abs(p2.first - p1.first)
    var yDiff = abs(p2.second - p1.second)
 
    if (p2.first < p1.first && p2.second > p1.second) {
       // diag left down
-      return Pair(p2, Pair<Int, Int>(p2.first - xDiff, p2.second + yDiff))
+      return Pair<Int, Int>(p2.first - xDiff, p2.second + yDiff)
    } else if (p2.first > p1.first && p2.second > p1.second) {
       // diag right down
-      return Pair(p2, Pair<Int, Int>(p2.first + xDiff, p2.second + yDiff))
+      return Pair<Int, Int>(p2.first + xDiff, p2.second + yDiff)
    } else if (p2.first < p1.first && p2.second < p1.second) {
       // diag left up
-      return Pair(p2, Pair<Int, Int>(p2.first - xDiff, p2.second - yDiff))
+      return Pair<Int, Int>(p2.first - xDiff, p2.second - yDiff)
    } else {
       // diag right up
-      return Pair(p2, Pair<Int, Int>(p2.first + xDiff, p2.second - yDiff))
+      return Pair<Int, Int>(p2.first + xDiff, p2.second - yDiff)
    }
 }
